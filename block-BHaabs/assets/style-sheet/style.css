@@ -1,0 +1,96 @@
+CSS reset
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+html,body {
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+  border:0;
+}
+input{
+	border:1px solid #b0b0b0;
+	padding:3px 5px 4px;
+	color:#979797;
+	width:190px;
+}
+address,caption,cite,code,dfn,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+  list-style:none;
+}
+caption,th {
+  text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+  content:'';
+}
+abbr,acronym { border:0;
+}
+ 
+
+
+/* CSS of page  */
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(40,46,43);
+  line-height: 1.5;
+}
+
+.container{
+  max-width: 1330px;
+  margin: 0 auto;
+  width: 80%;
+}
+h1, h2{
+  font-size: 40px;
+  font-weight: 900;
+  word-spacing: 10px;
+  text-transform: capitalize;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.9);
+}
+.header{
+  color: white;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.red{
+  color: rgb(243,66,71);
+}
+.white{
+  color: rgb(255,255,255);
+}
+.date{
+  margin-top: 30px;
+}
+.para{
+  margin: 40px 0px;
+  color: rgb(187,178,150);
+}
+.middle-para{
+  margin: 20px 0px;
+}
+.last-para{
+  padding-bottom: 20px;
+}
